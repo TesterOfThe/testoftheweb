@@ -1,0 +1,24 @@
+copy<!DOCTYPE html>
+<html>
+<head>
+    <title>Comments Section</title>
+</head>
+<body>
+    <h1>Comments Section</h1>
+
+    <!-- Comment Form -->
+    <form action="process_comment.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="link">Link:</label>
+        <input type="url" id="link" name="link" required><br><br>
+        <input type="submit" value="Submit Comment">
+    </form>
+
+    <!-- Displaying Comments -->
+    <h2>Comments:</h2>
+    <div id="comments">
+        <!-- Comments will be displayed here dynamically -->
+    </div>
+</body>
+</html>
